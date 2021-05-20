@@ -1,0 +1,85 @@
+<!-- ### Exercise
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the logo to the left and all the navigation to the right.
+
+3. The header must be fixed at the top of the page.
+
+4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+
+5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+
+6. After the gallery section footer will come.
+
+7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+
+
+<!DOCTYPE  html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Web Page with Positoning elements </title>
+        <link rel="stylesheet" href ="assets/stylesheet/style.css"> 
+    </head>
+    <body id="top">
+        <main>
+
+            <header class="header">
+                <div class="container clearfix">
+                    <img class="brand" src="assets/media/altcampus.png" alt="Logo">
+                    <nav class="nav">
+                        <a href="#" >Home</a>
+                        <a href="#" >About</a>
+                        <a href="#" >Contact</a>
+                    </nav>
+                </div>
+            </header>
+
+                <section class="article-section">
+            <div class="container clearfix">
+                <article class="col">
+                    <h1>Lorem Ipsum</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+
+                </article>
+                <article class="col">
+                    <img src="assets/media/pic1.jpg" class="article-img" alt="Pic1">
+                </article>
+            </div>
+            
+                </section>
+                <section class="gallery-section">
+            <div class="container  row1 clearfix">
+                    <div class="col2">
+                        <img src="assets/media/pic2.jpg" class="gallery" alt="first pic">
+                   
+                    </div>
+                    <div class="col2">
+                        <img src="assets/media/pic3.jpg" class="gallery" alt="Second pic">
+                    
+                    </div>
+                    <div class="col2">
+                        <img src="assets/media/pic4.jpg" class="gallery"  alt="Third pic">
+                    </div>
+            </div>
+             <div class="container  row2 clearfix">
+                    <div class="col2"> <img src="assets/media/pic5.jpg" class="gallery" alt="Fourthpic"> </div> 
+                    <div class="col2"><img src="assets/media/pic6.jpg" class="gallery" alt="Fifth pic"></div>
+                    <div class="col2"><img src="assets/media/pic7.jpg" class="gallery"  alt="Sixth pic"></div>
+             </div>
+                    
+            
+                </section>
+        </main>
+        <footer class="footer clearfix">
+                          
+                <nav class="button">
+                    <a href="#top">Top</a>
+                 
+                </nav>
+            
+        </footer>
+    </body>
+</html>
