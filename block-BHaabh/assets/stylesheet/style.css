@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/***********custom Code **************/
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+}
+
+/*******Clearfix************/
+.clearfix::before , .clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+ 
+
+}
+
+.container{
+    max-width:1200px;
+    margin:0 auto;
+    
+}
+
+.header{
+    background-color:#5489c4;
+    width:100%;
+    padding:50px 0;
+    color:white;
+    
+ 
+}
+nav{
+    float: right;
+}
+
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    margin:0 20px;
+}
+span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.section1, .section3{
+    background-color: #5489c4;
+    color:white;
+    
+    text-align: center;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+   font-size: 60px;
+   letter-spacing: 2px;
+   margin-bottom: 20px;
+
+}
+
+h2{
+    font-size: 16px;
+    font-weight:300;
+    letter-spacing: 1px;
+    padding-bottom:200px;
+}
+
+/*********Section2***********/
+.section2{
+    background-color: white;
+    margin-bottom: 80px;
+}
+
+.col{
+    float:left;
+    width:30%;
+    margin-right: 40px;
+    
+    
+}
+
+h3{
+    color: #5489c4;
+    font-size: 22px;
+    margin-bottom:20px;
+    margin-top: 120px;
+    margin-right: 40px;
+    
+}
+.section2-para{
+    font-weight: 200;
+    font-size: 16px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.more-link{
+    font-size: 18px;
+    font-weight: bold;
+    padding:10px;
+    background-color:#5489c4;
+    color:white;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+
+/************Section3***********/
+.section3{
+    background-color: #5489c4;
+    
+}
+
+.col1-4{
+    float: left;   
+    width:22%;
+    margin-top:60px;
+    border:1px solid rgb(201, 210, 219);
+    padding:50px;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    
+}
+
+.para3{
+    font-size: 42px;
+    margin-top:80px;
+    font-weight: 300;
+    padding: 10px;
+    
+}
+.para4{
+    font-size:18px;
+    font-weight: 200;
+    
+}
+
+h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.images{
+    margin-bottom: 20px;
+    border-radius: 50%;   
+}
+
+/**************Section4**********/
+
+.section4{
+    background-color: white;
+    text-align: center;
+}
+
+.para4-1{
+    color: #5489c4;
+    font-size: 36px;
+    font-weight: 200;
+    margin-top:80px;
+
+}
+.para4-2{
+    color:black;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 60px;
+}
+
+.col4-1{
+    float:left;
+    width:45%;
+    
+    margin-right: 50px;
+}
+
+.images4{
+    width:100%;
+    
+    
+}
+.para4-3{
+    font-size: 24px;
+    color: #5489c4;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.align-left{
+    text-align: left;
+}
+.nav-left{
+    float:left;
+    margin-bottom: 40px;
+}
+/****FOooter *****/
+footer{
+    padding:40px;
+}
+.footer-link{
+    float:right;
+    padding:10px;
+    
+
+}
+
+.footer-text{
+    font-size: 14px;
+    color:grey;
+    font-weight: 200;
+    
+}
+.links{
+    padding:10px;
+}
